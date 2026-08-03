@@ -31,7 +31,9 @@ nav a:hover { color: #c0392b; }
 .main { max-width: 800px; margin: 0 auto; padding: 1.5rem 1.2rem 3rem; }
 
 .gen-selector { background: #f7f7f7; border: 1px solid #e8e8e8; border-radius: 10px; padding: 1.2rem; margin-bottom: 2rem; }
-.gen-selector h3 { font-size: 0.78rem; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.8rem; }
+.gen-selector h3 { font-size: 0.72rem; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.5rem; }
+.nav-group { padding-bottom: 0.2rem; }
+.nav-group + .nav-group { border-top: 1px solid #e8e8e8; padding-top: 0.9rem; }
 .gen-grid { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .gen-btn { display: inline-block; padding: 0.42rem 1rem; border: 2px solid #c0392b; border-radius: 6px; font-size: 0.82rem; font-weight: 700; color: #c0392b; text-decoration: none; background: #fff; transition: all 0.15s; }
 .gen-btn:hover { background: #c0392b; color: #fff; }
@@ -133,8 +135,14 @@ footer a { color: #c0392b; text-decoration: none; }
 <div class="main">
 
   <div class="gen-selector">
-    <h3>Choose your JK configuration</h3>
-    <div class="gen-grid"><a href="https://jkseatcovers.com/" class="gen-btn active">All JK Covers</a><a href="https://jkseatcovers.com/jk-2door/" class="gen-btn">JK 2-Door</a><a href="https://jkseatcovers.com/jku-4door/" class="gen-btn">JKU 4-Door</a><a href="https://jkseatcovers.com/jk-2007-2010/" class="gen-btn">JK 2007-2010</a><a href="https://jkseatcovers.com/jk-2011-2012/" class="gen-btn">JK 2011-2012</a><a href="https://jkseatcovers.com/jk-2013-2018/" class="gen-btn">JK 2013-2018</a></div>
+    <div class="nav-group">
+      <h3>Step 1 &mdash; Door count</h3>
+      <div class="gen-grid"><a href="https://jkseatcovers.com/" class="gen-btn active">All JK/JKU (any door)</a><a href="https://jkseatcovers.com/jk-2door/" class="gen-btn">2-Door JK only</a><a href="https://jkseatcovers.com/jku-4door/" class="gen-btn">4-Door JKU only</a></div>
+    </div>
+    <div class="nav-group" style="margin-top:0.9rem">
+      <h3>Step 2 &mdash; Model year</h3>
+      <div class="gen-grid"><a href="https://jkseatcovers.com/" class="gen-btn active">All years (2007-2018)</a><a href="https://jkseatcovers.com/jk-2007-2010/" class="gen-btn">2007-2010</a><a href="https://jkseatcovers.com/jk-2011-2012/" class="gen-btn">2011-2012</a><a href="https://jkseatcovers.com/jk-2013-2018/" class="gen-btn">2013-2018</a></div>
+    </div>
   </div>
 
   
