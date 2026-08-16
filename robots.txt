@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jkseatcovers.com/sitemap.xml
